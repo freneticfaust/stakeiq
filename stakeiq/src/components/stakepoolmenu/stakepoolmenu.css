@@ -1,0 +1,50 @@
+.menu-text {
+  margin-right: 80px;
+  margin-top: 40px;
+  font-weight: bolder;
+}
+
+.menu-text:hover {
+  color: #0069c0;
+  cursor: pointer;
+}
+
+.navbar-menu-dropdown {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  background-color: #62757f;
+  height: 50px;
+  margin-left: -60px;
+  margin-top: 40px;
+  margin-right: 40px;
+  padding: 5px;
+}
+
+.pool-button {
+  background-color: #000000;
+  color: #2196f3;
+  font-size: 20px;
+}
+
+.pool-button:hover {
+  background-color: #2196f3;
+  color: #000000;
+  cursor: pointer;
+}
+
+.decred-img-dropdown {
+  width: 30px;
+  /* margin-left: 10px; */
+}
+.tezos-img-dropdown {
+  width: 30px;
+}
+.cosmos-img-dropdown {
+  width: 30px;
+}
+.livepeer-img-dropdown {
+  width: 30px;
+}

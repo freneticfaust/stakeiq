@@ -1,0 +1,65 @@
+.mainbody {
+  background-color: #c1d5e0;
+}
+
+.cta-mainbody {
+  margin-top: 90px;
+  font-size: 50px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+.sub-cta-mainbody {
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+}
+
+.sub-cta-compare-mainbody {
+  margin-top: 100px;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+.pool-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  padding-top: 40px;
+}
+
+.pool-card {
+  display: flex;
+  flex-direction: column;
+  height: 155px;
+  width: 115px;
+  padding: 10px;
+  background-color: #61747e;
+}
+
+.pool-card:hover {
+  background-color: #8fa3ad;
+  border: 1px solid #2196f3;
+}
+
+.pool-card-livepeer {
+  display: flex;
+  flex-direction: column;
+  height: 155px;
+  width: 115px;
+  padding: 10px;
+  background-color: #61747e;
+}
+
+.pool-card-livepeer:hover {
+  background-color: #8fa3ad;
+  border: 1px solid #2196f3;
+}
+.pool-card-text-livepeer {
+  margin-top: 30px;
+}
+.livepeer-img {
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 100px;
+}

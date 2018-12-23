@@ -1,0 +1,22 @@
+.App-header {
+  background-color: #62757f;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 30px;
+  color: #000000;
+  font-family: "Major Mono Display", monospace;
+}
+
+.header-text {
+  margin-left: 60px;
+  margin-top: 40px;
+  font-weight: bolder;
+}
+
+.stake-flag {
+  height: 80px;
+  margin-left: 240px;
+  margin-top: 10px;
+}
