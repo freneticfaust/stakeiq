@@ -38,6 +38,7 @@
 }
 
 .pool-card:hover {
+  color: #2196f3;
   background-color: #8fa3ad;
   border: 1px solid #2196f3;
 }
