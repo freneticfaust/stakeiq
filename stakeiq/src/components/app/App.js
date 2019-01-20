@@ -14,9 +14,9 @@ class App extends Component {
           <MainBody />
           <Switch>
             <Route exact path="/decred" render={() => <DecredPage />} />
-            {/* <Route path="/tezos" render={() => <Tezos />} />
-          <Route path="/cosmos" render={() => <Cosmos />} />
-          <Route path="/livepeer" render={() => <LivePeer />} /> */}
+            <Route path="/tezos" render={() => <Tezos />} />
+            <Route path="/cosmos" render={() => <Cosmos />} />
+            <Route path="/livepeer" render={() => <LivePeer />} />
           </Switch>
         </div>
       </Router>
