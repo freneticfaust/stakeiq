@@ -8,7 +8,7 @@ class LivePeerPage extends Component {
   render() {
     return (
       <div className="livepeer-page-container">
-        <p>here</p>
+        <p>LivePeerPage</p>
       </div>
     );
   }

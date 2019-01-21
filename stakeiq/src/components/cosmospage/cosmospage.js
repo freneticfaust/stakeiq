@@ -8,7 +8,7 @@ class CosmosPage extends Component {
   render() {
     return (
       <div className="cosmos-page-container">
-        <p>here</p>
+        <p>CosmosPage</p>
       </div>
     );
   }

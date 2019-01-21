@@ -8,7 +8,7 @@ class DecredPage extends Component {
   render() {
     return (
       <div className="decred-page-container">
-        <p>here</p>
+        <p>DecredPage</p>
       </div>
     );
   }

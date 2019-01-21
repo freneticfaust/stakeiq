@@ -36,12 +36,13 @@
   width: 140px;
   padding: 10px;
   background-color: #61747e;
+  border: 1px solid #2196f3;
 }
 
 .pool-card:hover {
   color: #2196f3;
   background-color: #8fa3ad;
-  border: 1px solid #2196f3;
+  border: 1px solid #000000;
 }
 
 .pool-card-livepeer {
@@ -52,11 +53,13 @@
   width: 140px;
   padding: 10px;
   background-color: #61747e;
+  border: 1px solid #2196f3;
 }
 
 .pool-card-livepeer:hover {
+  color: #2196f3;
   background-color: #8fa3ad;
-  border: 1px solid #2196f3;
+  border: 1px solid #000000;
 }
 .pool-card-text-livepeer {
   margin-top: 30px;

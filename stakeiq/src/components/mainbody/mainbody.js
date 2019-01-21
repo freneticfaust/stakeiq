@@ -33,18 +33,36 @@ class MainBody extends Component {
                 <h4 className="pool-card-text-decred">Decred</h4>
               </div>
             </Link>
-            <div className="pool-card">
-              <img src={Tezos} className="tezos-img" />
-              <h4 className="pool-card-text-tezos">Tezos</h4>
-            </div>
-            <div className="pool-card">
-              <img src={Cosmos} className="cosmos-img" />
-              <h4 className="pool-card-text-cosmos">Cosmos</h4>
-            </div>
-            <div className="pool-card-livepeer">
-              <img src={LivePeer} className="livepeer-img" />
-              <h4 className="pool-card-text-livepeer">LivePeer</h4>
-            </div>
+            <Link
+              to="/tezos"
+              className="tezos-link-mainbody"
+              style={{ color: "black", textDecoration: "none" }}
+            >
+              <div className="pool-card">
+                <img src={Tezos} className="tezos-img" />
+                <h4 className="pool-card-text-tezos">Tezos</h4>
+              </div>
+            </Link>
+            <Link
+              to="/cosmos"
+              className="cosmos-link-mainbody"
+              style={{ color: "black", textDecoration: "none" }}
+            >
+              <div className="pool-card">
+                <img src={Cosmos} className="cosmos-img" />
+                <h4 className="pool-card-text-cosmos">Cosmos</h4>
+              </div>
+            </Link>
+            <Link
+              to="/livepeer"
+              className="liverpeer-link-mainbody"
+              style={{ color: "black", textDecoration: "none" }}
+            >
+              <div className="pool-card-livepeer">
+                <img src={LivePeer} className="livepeer-img" />
+                <h4 className="pool-card-text-livepeer">LivePeer</h4>
+              </div>
+            </Link>
           </div>
         </div>
       </Router>

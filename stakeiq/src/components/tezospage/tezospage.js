@@ -8,7 +8,7 @@ class TezosPage extends Component {
   render() {
     return (
       <div className="tezos-page-container">
-        <p>here</p>
+        <p>TezosPage</p>
       </div>
     );
   }
