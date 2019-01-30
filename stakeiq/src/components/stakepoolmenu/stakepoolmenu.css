@@ -3,7 +3,7 @@
 } */
 
 .menu-button {
-  margin-right: 25px;
+  margin-right: 75px;
   margin-top: 20px;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
@@ -36,7 +36,7 @@
   height: 50px;
   /* border: 1px solid black; */
   margin-top: 25px;
-  margin-right: 25px;
+  margin-right: 75px;
   padding: 3px;
   border-radius: 10px;
   width: 650px;
