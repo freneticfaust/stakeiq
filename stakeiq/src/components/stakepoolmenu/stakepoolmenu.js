@@ -45,14 +45,14 @@ class StakePoolMenu extends Component {
               this.dropdownMenu = element;
             }}
           >
-            <img src={Decred} className="decred-img-dropdown" />
-            <p className="pool-button">Decred</p>
-            <img src={Tezos} className="tezos-img-dropdown" />
-            <p className="pool-button"> Tezos </p>
-            <img src={Cosmos} className="cosmos-img-dropdown" />
-            <p className="pool-button"> Cosmos </p>
-            <img src={LivePeer} className="livepeer-img-dropdown" />
-            <p className="pool-button"> LivePeer </p>
+            {/* <img src={Decred} className="decred-img-dropdown" /> */}
+            <button className="drop-option-button">About</button>
+            {/* <img src={Tezos} className="tezos-img-dropdown" /> */}
+            <button className="drop-option-button">Yields</button>
+            {/* <img src={Cosmos} className="cosmos-img-dropdown" /> */}
+            <button className="drop-option-button">Technology</button>
+            {/* <img src={LivePeer} className="livepeer-img-dropdown" /> */}
+            <button className="drop-option-button">Connect</button>
           </div>
         ) : null}
       </div>
