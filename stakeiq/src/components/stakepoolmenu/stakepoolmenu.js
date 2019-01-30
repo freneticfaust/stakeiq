@@ -35,9 +35,9 @@ class StakePoolMenu extends Component {
   render() {
     return (
       <div className="pool-menu">
-        <p className="menu-text" onClick={this.showMenu}>
-          AVAILABLE ASSETS
-        </p>
+        <button className="menu-button" onClick={this.showMenu}>
+          Get Started
+        </button>
         {this.state.showMenu ? (
           <div
             className="navbar-menu-dropdown"

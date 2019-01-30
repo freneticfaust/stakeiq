@@ -8,8 +8,8 @@ class NavBar extends Component {
     return (
       <div className="App-header">
         <p className="header-text">stake IQ</p>
-        <img src={StakeFlag} className="stake-flag" />
         <StakePoolMenu />
+        <img src={StakeFlag} className="stake-flag" />
       </div>
     );
   }
