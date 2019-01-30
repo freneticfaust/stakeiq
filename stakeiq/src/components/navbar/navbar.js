@@ -7,7 +7,7 @@ class NavBar extends Component {
   render() {
     return (
       <div className="App-header">
-        <p className="header-text">stake IQ</p>
+        <p className="header-text">stakeIQ</p>
         <StakePoolMenu />
         <img src={StakeFlag} className="stake-flag" />
       </div>
