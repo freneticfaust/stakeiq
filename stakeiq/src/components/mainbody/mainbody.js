@@ -14,7 +14,7 @@ class MainBody extends Component {
         <div className="mainbody">
           <h1 className="cta-mainbody">Compound Your Digital Assets</h1>
           <h2 className="sub-cta-mainbody">
-            Decentralized Finance Is Here. Take Your Assets And Earn More.
+            Decentralized Finance Is Here. Earn On Your Digital Assets.
           </h2>
           <h3 className="sub-cta-compare-mainbody">
             Quickly compare validators for your favorite assets.
