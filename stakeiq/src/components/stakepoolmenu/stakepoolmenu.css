@@ -1,7 +1,7 @@
 .menu-text {
   margin-right: 80px;
   margin-top: 40px;
-  font-weight: bolder;
+  font-family: "Roboto", sans-serif;
 }
 
 .menu-text:hover {
